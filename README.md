@@ -17,7 +17,7 @@ This Script is tailored for users from the GMRS Freedom Nation network.
 1. SSH into the node and open a bash terminal. Then copy and paste the line below.
 
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/WRQC343/ReConn_gfn/main/ReConn_gfn_installer.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/WRQC343/ReConn_gfn_rpt/main/ReConn_gfn_rpt_installer.sh)"
 ```
 2. During the install, you will be prompted for.
     - Node number
