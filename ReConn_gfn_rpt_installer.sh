@@ -78,7 +78,7 @@ fi
 
 TMP_CRON="$(mktemp)"
 crontab -l 2>/dev/null > "$TMP_CRON" || true
-echo "*/10 * * * * $CRON_CMD" >> "$TMP_CRON"
+echo "*/20 * * * * $CRON_CMD" >> "$TMP_CRON"
 crontab "$TMP_CRON"
 rm -f "$TMP_CRON"
 
