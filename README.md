@@ -4,7 +4,7 @@
 ![OS Version](https://img.shields.io/badge/OS-Linux_*_Hamvoip-red?color=red)
 ![Version](https://img.shields.io/badge/Repeaters-Purple?color=purple)
 
-# ReConn - G.F.N
+# ReConn - G.F.N - Repeater
 
 This Script is designed to help with connection drops to keep you connected to the server.   
 This Script is tailored for users from the GMRS Freedom Nation network.
@@ -36,7 +36,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/WRQC343/ReConn_gfn_rpt/m
 
 ## Setup
 
-1. SSH into the node, on the admin menu, look for ReConn Setup & open it.
+1. SSH into the node. On the admin menu, look for ReConn Setup & open it.
 
 2. Enter your node number & the hub or node you want to stay connected to.
 
@@ -44,17 +44,17 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/WRQC343/ReConn_gfn_rpt/m
 
 1. Disconnect from any hubs or nodes.
 
-2. Wait for it to ReConn to the hub you selected, every 10 min.
+2. Wait for it to ReConn to the hub you selected. Script runs every 20 min.
 
 ## How to use with the radio's DTMF
 
-1. Key the radio and enter *917 on the keypad. Unkey, you should hear an audible notification indicating that "ReConn enabled."
+1. Key the radio and enter *917 on the keypad. Unkey; you should hear an audible notification indicating that "ReConn enabled."
 
 2. Repeat with the disable code.
 
 ## How to use with Supermon
 
-1. Log in to your supermon page.
+1. Log in to your Supermon page.
 
 2. Select the node # you configured & click the Control button.
 
