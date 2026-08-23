@@ -15,7 +15,7 @@ if [ "$EUID" -ne 0 ]; then
 fi
 
 
-LINK="https://raw.githubusercontent.com/WRQC343/ReConn_gfn/main"
+LINK="https://raw.githubusercontent.com/WRQC343/ReConn_gfn_rpt/main"
 INSTALL_DIR="/etc/asterisk/local/ReConn"
 MARKER_FILE="$INSTALL_DIR/.installed"
 CRON_CMD="$INSTALL_DIR/ReConn.sh"
@@ -63,9 +63,8 @@ download "$LINK/ReConn/tpl/ReConn-Enabled.tpl" "$INSTALL_DIR/tpl" 644
 download "$LINK/ReConn/tpl/ReConn-Disabled.tpl" "$INSTALL_DIR/tpl" 644
 
 echo "Downloading sound files..."
-download "$LINK/ReConn/Sound/ReConn_Connecting.gsm" "$INSTALL_DIR/Sound" 644
-download "$LINK/ReConn/Sound/ReConn_ENABLED.gsm" "$INSTALL_DIR/Sound" 644
-download "$LINK/ReConn/Sound/ReConn_DISABLED.gsm" "$INSTALL_DIR/Sound" 644
+download "$LINK/ReConn/Sound/on.gsm" "$INSTALL_DIR/Sound" 644
+download "$LINK/ReConn/Sound/off.gsm" "$INSTALL_DIR/Sound" 644
 
 echo "Downloads complete."
 echo
